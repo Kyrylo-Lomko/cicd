@@ -13,7 +13,7 @@ export AWS_DEFAULT_REGION=us-east-1
 if [[ $BRANCH_NAME == feature-* ]]
 then
     current_stage=dev
-elif [[ $BRANCH_NAME == main-* ]]
+elif [[ $BRANCH_NAME == main ]]
 then
     current_stage=staging
 elif [[ $BRANCH_NAME == production-* ]]
